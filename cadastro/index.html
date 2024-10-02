@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+<section>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" minlength="2" maxlength="50" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" id="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required><br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" min="0"><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone">
+    </fieldset>
+</section>
+
+</body>
+</html>
