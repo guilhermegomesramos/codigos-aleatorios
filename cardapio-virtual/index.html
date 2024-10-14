@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Virtual</title>
+    <link rel="shortcut icon" href="imagens/Imagem do WhatsApp de 2024-10-03.png" type="image/x-icon">
+    <style>
+        img{
+            margin: 10px;
+        }
+
+        body{
+            background-color: rgb(0, 0, 0);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        tbody > tr > td > h2 {
+            margin: 0px;
+            font-size: 30px;
+        }
+
+        tbody > tr > td > p {
+            margin: 0px;
+            margin-bottom: 10px;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.689);
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(130, 33, 33);
+            color: white;
+        }
+
+        thead, tfoot{
+            background-color: rgb(94, 24, 24);
+            color: white;
+        }
+
+        th{
+            border-bottom: 2px solid black;
+            padding: 8px;
+        }
+
+        #nomedospratos{
+            text-align: left;
+        }
+
+        td{
+            border-bottom: 2px solid black;
+            padding: 10px;
+        }
+
+        td.num{
+            text-align: right;
+        }
+
+        p#bom{
+            width: 500px;
+            background-color: rgb(94, 24, 24);
+            margin: auto;
+            text-align: center;
+            color: white;
+            font-size: xx-large;
+            font-weight: bold
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 5px;
+            margin: auto;
+            width: 500px;
+        }
+
+        footer a:hover{
+            text-decoration: underline;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    
+    <table>
+        <caption>Cardápio Virtual</caption>
+        <thead>
+            <tr>
+                <th scope="col" id="nomedospratos">Nome do prato</th>
+                <th scope="col" style="width: 100px;">Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <h2>Frango Xadrez</h2>
+                    <p>Azeite de oliva, alho, sal, pimentão vermelho, cogumelos em conserva, maisena, amendoim torrado, cebolas, filé de frango, pimentão verde, pimentão amarelo, molho shoyu, água.</p>
+                </td>
+                <td class="num">R$ 33,00</td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Frango Xadrez</h2>
+                    <p>Azeite de oliva, alho, sal, pimentão vermelho, cogumelos em conserva, maisena, amendoim torrado, cebolas, filé de frango, pimentão verde, pimentão amarelo, molho shoyu, água.</p>
+                </td>
+                <td class="num">R$ 33,00</td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Frango Xadrez</h2>
+                    <p>Azeite de oliva, alho, sal, pimentão vermelho, cogumelos em conserva, maisena, amendoim torrado, cebolas, filé de frango, pimentão verde, pimentão amarelo, molho shoyu, água.</p>
+                </td>
+                <td class="num">R$ 33,00</td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Frango Xadrez</h2>
+                    <p>Azeite de oliva, alho, sal, pimentão vermelho, cogumelos em conserva, maisena, amendoim torrado, cebolas, filé de frango, pimentão verde, pimentão amarelo, molho shoyu, água.</p>
+                </td>
+                <td class="num">R$ 33,00</td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Frango Xadrez</h2>
+                    <p>Azeite de oliva, alho, sal, pimentão vermelho, cogumelos em conserva, maisena, amendoim torrado, cebolas, filé de frango, pimentão verde, pimentão amarelo, molho shoyu, água.</p>
+                </td>
+                <td class="num">R$ 33,00</td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Frango Xadrez</h2>
+                    <p>Azeite de oliva, alho, sal, pimentão vermelho, cogumelos em conserva, maisena, amendoim torrado, cebolas, filé de frango, pimentão verde, pimentão amarelo, molho shoyu, água.</p>
+                </td>
+                <td class="num">R$ 33,00</td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Frango Xadrez</h2>
+                    <p>Azeite de oliva, alho, sal, pimentão vermelho, cogumelos em conserva, maisena, amendoim torrado, cebolas, filé de frango, pimentão verde, pimentão amarelo, molho shoyu, água.</p>
+                </td>
+                <td class="num">R$ 33,00</td>
+            </tr>  
+        </tbody>
+    </table>
+    <p id="bom">Bom Apetite!!!</p>
+    <footer>
+        Feito por <a href="https://www.linkedin.com/in/guilherme-gomes-1671b9247" target="_blank">Guilherme Gomes Ramos</a>
+    </footer>
+</body>
+</html>
